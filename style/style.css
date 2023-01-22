@@ -1,0 +1,91 @@
+body {
+    background-color: #272727;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+#NavigationBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #323668;
+    align-items: center;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: Arial;
+}
+
+.navlink:hover {
+    color: gray;
+}
+
+.navlink:active {
+    transform: translateY(10%);
+}
+
+#navlogo {
+    height: 20%;
+    border-radius: 50%;
+}
+
+#logolink {
+    padding: 1%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+#TopHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#JSCode {
+    width: 50%;
+    border-radius: 4%;
+}
+
+#InfoSite {
+    width: 50%;
+}
+
+.Links {
+    color: #00ffff;
+}
+
+.Links:hover {
+    color: #cacada;
+}
+
+#websiteFriday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232629;
+}
+
+#InfoFriday{
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #323668;
+    align-items: center;
+}
