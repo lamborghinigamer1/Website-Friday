@@ -57,6 +57,11 @@ h6 {
 #JSCode {
     width: 50%;
     border-radius: 4%;
+
+}
+
+#JSCode:active {
+    transform: translateY(3%);
 }
 
 #InfoSite {
@@ -71,21 +76,73 @@ h6 {
     color: #cacada;
 }
 
-#websiteFriday{
+.Links:active {
+    transform: translateY(10%);
+}
+
+#websiteFriday {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #232629;
 }
 
-#InfoFriday{
+#InfoFriday {
     width: 40%;
 }
 
 footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #323668;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: #323668;
+    color: white;
+    font-family: Arial;
+}
+
+.FooterInfo {
+    width: 50%;
+}
+
+#TopHeadingSocials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.social-item {
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 5%;
+    background-color: #212422;
+}
+
+.social-item:hover{
+    background-color: #646464;
+}
+
+.Social-Links {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Social-Links:hover {
+    color: #ff4f3c;
+}
+
+.Social-Links:active {
+    transform: translateY(10%);
+}
+
+.social-logo{
+    width: 50%;
+}
+
+#about-img{
+    width: 17%;
+    border-radius: 10%;
 }
